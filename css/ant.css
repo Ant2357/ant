@@ -1,0 +1,196 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.4
+2009-07-27
+Author: Richard Clark - http://richclarkdesign.com
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header,
+hgroup, menu, nav, section,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+.button {
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  padding: .5rem 1rem;
+  white-space: nowrap; }
+  .button-hover, .button:hover {
+    background-color: #e6e6e6;
+    border-color: #bbb;
+    color: #333; }
+  .button-active, .button:active {
+    background-color: #bbb;
+    border-color: #333;
+    color: #333; }
+  .button-focus, .button:focus {
+    border-color: #2196f3;
+    color: #333; }
+  .button-disabled, .button:disabled {
+    cursor: not-allowed;
+    opacity: .5;
+    pointer-events: none; }
+  .button-small {
+    font-size: .8rem;
+    padding: .25rem .5rem; }
+  .button-large {
+    font-size: 1.25rem;
+    padding: .5rem 1.5rem; }
+  .button-primary {
+    background-color: #157ed4;
+    border-color: #157ed4;
+    color: #fff; }
+    .button-primary:hover {
+      background-color: #165e83;
+      border-color: #165e83;
+      color: #fff; }
+    .button-primary:active {
+      background-color: #0f2350;
+      border-color: #0f2350;
+      color: #fff; }
+    .button-primary:focus {
+      border-color: #5bc0de;
+      color: #fff; }
+  .button-success {
+    background-color: #69b076;
+    border-color: #69b076;
+    color: #fff; }
+    .button-success:hover {
+      background-color: #007b43;
+      border-color: #007b43;
+      color: #fff; }
+    .button-success:active {
+      background-color: #316745;
+      border-color: #316745;
+      color: #fff; }
+    .button-success:focus {
+      border-color: #5bc0de;
+      color: #fff; }
+  .button-info {
+    background-color: #59b9c6;
+    border-color: #59b9c6;
+    color: #fff; }
+    .button-info:hover {
+      background-color: #2792c3;
+      border-color: #2792c3;
+      color: #fff; }
+    .button-info:active {
+      background-color: #3e62ad;
+      border-color: #3e62ad;
+      color: #fff; }
+    .button-info:focus {
+      border-color: #5bc0de;
+      color: #fff; }
+  .button-warning {
+    background-color: #d9a62e;
+    border-color: #d9a62e;
+    color: #fff; }
+    .button-warning:hover {
+      background-color: #c89932;
+      border-color: #c89932;
+      color: #fff; }
+    .button-warning:active {
+      background-color: #ad7d4c;
+      border-color: #ad7d4c;
+      color: #fff; }
+    .button-warning:focus {
+      border-color: #5bc0de;
+      color: #fff; }
+  .button-danger {
+    background-color: #c85554;
+    border-color: #c85554;
+    color: #fff; }
+    .button-danger:hover {
+      background-color: #d7003a;
+      border-color: #d7003a;
+      color: #fff; }
+    .button-danger:active {
+      background-color: #a22041;
+      border-color: #a22041;
+      color: #fff; }
+    .button-danger:focus {
+      border-color: #5bc0de;
+      color: #fff; }
+
+.button-group {
+  letter-spacing: -.31em; }
