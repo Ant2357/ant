@@ -1,4 +1,4 @@
-.button {
+.btn {
   border: 1px solid #333;
   background-color: #fff;
   color: #333;
@@ -147,6 +147,9 @@
   }
 }
 
-.button-group {
-  letter-spacing: -.31em;
+.btn-group {
+  letter-spacing: -.35rem;
+  > .btn {
+    margin: 0;
+  }
 }
