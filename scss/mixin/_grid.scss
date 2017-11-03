@@ -1,0 +1,30 @@
+@mixin grids($className, $minWidth) {
+  #{$className} {
+    display: block;
+  }
+
+  @for $i from 1 through 12 {
+    #{$className}-#{$i} {
+      display: block;
+    }
+  }
+
+  @media (min-width: $minWidth) {
+    @for $i from 1 through 12 {
+      #{$className}-#{$i} {
+        max-width: $i / 12 * 100%;
+        width: $i / 12 * 100%;
+      }
+    }
+  }
+}
+
+@mixin offsets($className, $minWidth) {
+  @media (min-width: $minWidth) {
+    @for $i from 1 through 12 {
+      #{$className}-#{$i} {
+        margin-left: $i / 12 * 100%
+      }
+    }
+  }
+}

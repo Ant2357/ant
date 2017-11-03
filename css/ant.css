@@ -1623,3 +1623,74 @@ input, select {
   letter-spacing: -.35rem; }
   .btn-group > .btn {
     margin: 0; }
+
+.navbar {
+  align-items: center;
+  background: #333;
+  color: #fff;
+  justify-content: flex-start;
+  padding: .5rem 1.5rem; }
+  .navbar-logo {
+    font-size: 1.25rem;
+    margin: 0;
+    white-space: nowrap; }
+  .navbar-nav {
+    display: block;
+    flex-flow: column nowrap;
+    list-style: none; }
+  .navbar-dropmenu {
+    display: flex; }
+    .navbar-dropmenu li {
+      list-style: none;
+      position: relative; }
+      .navbar-dropmenu li:hover > ul {
+        display: block; }
+  @media (min-width: 576px) {
+    .navbar {
+      display: flex;
+      width: 100%; }
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      padding: .5rem 1.5rem; } }
+
+.nav-link {
+  color: #fff;
+  display: block;
+  font-size: 1.25rem;
+  list-style: none;
+  margin: 1rem;
+  text-decoration: none; }
+.nav-item {
+  border-top: 1px solid #4c4c4c;
+  display: block; }
+@media (min-width: 576px) {
+  .nav-item {
+    border: 1px solid transparent;
+    display: block; }
+  .nav-link {
+    margin: 0 1.5rem;
+    font-size: 1rem; } }
+
+.dropmenu-dropdown {
+  cursor: pointer; }
+.dropmenu-tabs {
+  border: 1px solid #4c4c4c;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 999; }
+  .dropmenu-tabs > .dropmenu-tab:last-child {
+    border-bottom: 1px solid transparent; }
+.dropmenu-tab {
+  border-bottom: 1px solid #4c4c4c; }
+.dropmenu-link {
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  min-width: 10rem; }
