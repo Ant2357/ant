@@ -17,10 +17,13 @@
     list-style: none;
   }
 
+  &-right {
+    margin-left: auto;
+  }
+
   @media (min-width: $smSize) {
     & {
       display: flex;
-      width: 100%;
     }
 
     &-nav {
@@ -37,7 +40,7 @@
     display: block;
     font-size: 1.25rem;
     list-style: none;
-    margin: 1rem;
+    padding: 1rem;
     text-decoration: none;
   }
 
@@ -45,15 +48,27 @@
     border-top: 1px solid #4c4c4c;
     display: block;
     width: 100%;
+
+    > .btn {
+      display: block;
+      padding: 1rem;
+      text-align: left;
+    }
   }
 
   @media (min-width: $smSize) {
     &-item {
       border: 1px solid transparent;
       display: block;
+      & a {
+        display: inline;
+      }
+      > .btn {
+        display: inline;
+        text-align: center;
+      }
     }
     &-link {
-      margin: 0 1.5rem;
       font-size: 1rem;
     }
   }

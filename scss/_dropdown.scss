@@ -4,26 +4,30 @@
 
   &-dropbtn {
     cursor: pointer;
+    margin: 0;
   }
 
   &-content {
     background-color: #f9f9f9;
     display: none;
-    min-width: 10rem;
     position: absolute;
+    white-space: nowrap;
+    width: 100%;
+    min-width: 10rem;
     z-index: 999;
   }
 
   &-content > a {
     color: #333;
     display: block;
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
     text-decoration: none;
   }
 
   &-content > a:hover {
     background-color: #f1f1f1;
   }
+
   &:hover > &-content {
     display: block;
   }
