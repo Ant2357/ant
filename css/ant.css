@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 html5doctor.com Reset Stylesheet
 v1.4
@@ -706,6 +707,10 @@ input, select {
 
   .col-xl-offset-12 {
     margin-left: 100%; } }
+/**
+ * navbarの使い勝手が悪いので修整する予定
+ * 未来の自分、修整頑張れ
+ */
 .navbar {
   align-items: center;
   background: #333;
