@@ -23,6 +23,14 @@
   @media (min-width: $xlSize) {
     width: 1140px;
   }
+
+  &-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .row {

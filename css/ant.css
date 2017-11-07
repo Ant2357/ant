@@ -102,6 +102,12 @@ input, select {
   @media (min-width: 1200px) {
     .container {
       width: 1140px; } }
+  .container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem; }
 
 .row {
   align-content: flex-start;
