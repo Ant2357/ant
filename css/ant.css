@@ -85,12 +85,30 @@ input, select {
   vertical-align: middle; }
 
 .container {
-  margin: 0 auto; }
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+  @media (min-width: 576px) {
+    .container {
+      width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1140px; } }
 
 .row {
   align-content: flex-start;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem; }
 
 .col {
   display: block; }
