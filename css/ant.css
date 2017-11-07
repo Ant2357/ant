@@ -749,7 +749,7 @@ input, select {
   .nav-item {
     border: 1px solid transparent;
     display: block; }
-    .nav-item a {
+    .nav-item a, .nav-item button {
       display: inline; }
     .nav-item > .btn {
       display: inline;
@@ -895,3 +895,12 @@ input, select {
     background-color: #f1f1f1; }
   .dropdown:hover > .dropdown-content {
     display: block; }
+
+.caret {
+  border-right: 4px solid transparent;
+  border-top: 4px solid #333;
+  border-left: 4px solid transparent;
+  display: inline-block;
+  height: 0;
+  vertical-align: middle;
+  width: 0; }
