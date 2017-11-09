@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
 html5doctor.com Reset Stylesheet
 v1.4
@@ -731,10 +730,6 @@ input, select {
 
   .col-xl-offset-12 {
     margin-left: 100%; } }
-/**
- * navbarの使い勝手が悪いので修整する予定
- * 未来の自分、修整頑張れ
- */
 .navbar {
   align-items: center;
   background: #333;
@@ -744,6 +739,7 @@ input, select {
   .navbar-logo {
     font-size: 1.25rem;
     margin: 0;
+    text-align: center;
     white-space: nowrap; }
   .navbar-nav {
     display: block;
@@ -759,32 +755,34 @@ input, select {
       flex-direction: row;
       padding: .5rem 1.5rem; } }
 
-.nav-link {
+.nav-link, .nav-item .nav-link {
   color: #fff;
   display: block;
   font-size: 1.25rem;
   list-style: none;
   padding: 1rem;
-  text-decoration: none; }
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap; }
 .nav-item {
   border-top: 1px solid #4c4c4c;
   display: block;
   width: 100%; }
-  .nav-item > .btn {
-    display: block;
-    padding: 1rem;
-    text-align: left; }
+.nav-item > button {
+  width: 100%; }
 @media (min-width: 576px) {
   .nav-item {
     border: 1px solid transparent;
     display: block; }
-    .nav-item a, .nav-item button {
-      display: inline; }
-    .nav-item > .btn {
-      display: inline;
-      text-align: center; }
-  .nav-link {
+  .nav-link, .nav-item > .nav-link {
     font-size: 1rem; } }
+
+.btn-group {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap; }
+  .btn-group > .btn {
+    margin: 0; }
 
 .btn {
   border: 1px solid #333;
@@ -896,14 +894,10 @@ input, select {
       border-color: #5bc0de;
       color: #fff; }
 
-.btn-group {
-  letter-spacing: -.35rem; }
-  .btn-group > .btn {
-    margin: 0; }
-
 .dropdown {
   display: inline-block;
-  position: relative; }
+  position: relative;
+  text-align: center; }
   .dropdown-dropbtn {
     cursor: pointer;
     margin: 0; }
@@ -931,5 +925,6 @@ input, select {
   border-left: 4px solid transparent;
   display: inline-block;
   height: 0;
+  margin-left: 0.5rem;
   vertical-align: middle;
   width: 0; }

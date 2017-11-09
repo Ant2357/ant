@@ -1,3 +1,12 @@
+.btn-group {
+  align-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  > .btn {
+    margin: 0;
+  }
+}
+
 .btn {
   border: 1px solid #333;
   background-color: #fff;
@@ -144,12 +153,5 @@
       border-color: #5bc0de;
       color: #fff;
     }
-  }
-}
-
-.btn-group {
-  letter-spacing: -.35rem;
-  > .btn {
-    margin: 0;
   }
 }

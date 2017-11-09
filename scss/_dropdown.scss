@@ -1,7 +1,7 @@
 .dropdown {
   display: inline-block;
   position: relative;
-
+  text-align: center;
   &-dropbtn {
     cursor: pointer;
     margin: 0;
@@ -16,14 +16,12 @@
     min-width: 10rem;
     z-index: 999;
   }
-
   &-content > a {
     color: #333;
     display: block;
     padding: .5rem 1rem;
     text-decoration: none;
   }
-
   &-content > a:hover {
     background-color: #f1f1f1;
   }
@@ -39,6 +37,7 @@
   border-left: 4px solid transparent;
   display: inline-block;
   height: 0;
+  margin-left: 0.5rem;
   vertical-align: middle;
   width: 0;
 }
