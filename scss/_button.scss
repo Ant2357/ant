@@ -51,8 +51,8 @@
   }
 
   &-primary {
-    background-color: #157ed4;
-    border-color: #157ed4;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
     color: #fff;
 
     &:hover {
@@ -72,8 +72,8 @@
   }
 
   &-success {
-    background-color:#69b076;
-    border-color: #69b076;
+    background-color:$successColor;
+    border-color: $successColor;
     color: #fff;
 
     &:hover {
@@ -93,8 +93,8 @@
   }
 
   &-info {
-    background-color: #59b9c6;
-    border-color: #59b9c6;
+    background-color: $infoColor;
+    border-color: $infoColor;
     color: #fff;
 
     &:hover {
@@ -114,8 +114,8 @@
   }
 
   &-warning {
-    background-color: #d9a62e;
-    border-color: #d9a62e;
+    background-color: $warningColor;
+    border-color: $warningColor;
     color: #fff;
 
     &:hover {
@@ -135,8 +135,8 @@
   }
 
   &-danger {
-    background-color: #c85554;
-    border-color: #c85554;
+    background-color: $dangerColor;
+    border-color: $dangerColor;
     color: #fff;
 
     &:hover {

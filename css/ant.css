@@ -730,6 +730,32 @@ input, select {
 
   .col-xl-offset-12 {
     margin-left: 100%; } }
+.hero {
+  font-weight: 700;
+  padding: 4rem 1rem; }
+  .hero-md {
+    padding: 8rem 1rem; }
+  .hero-lg {
+    padding: 16rem 1rem; }
+  .hero-primary {
+    background-color: #157ed4;
+    color: #fff; }
+  .hero-success {
+    background-color: #69b076;
+    color: #fff; }
+  .hero-info {
+    background-color: #59b9c6;
+    color: #fff; }
+  .hero-warning {
+    background-color: #d9a62e;
+    color: #000; }
+  .hero-danger {
+    background-color: #c85554;
+    color: #000; }
+  .hero-title {
+    font-size: 2rem;
+    line-height: 3rem; }
+
 .navbar {
   align-items: center;
   background: #333;

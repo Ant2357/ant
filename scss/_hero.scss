@@ -1,0 +1,37 @@
+.hero {
+  font-weight: 700;
+  padding: 4rem 1rem;
+
+  &-md {
+    padding: 8rem 1rem;
+  }
+  &-lg {
+    padding: 16rem 1rem;
+  }
+
+  &-primary {
+    background-color: $primaryColor;
+    color: #fff;
+  }
+  &-success {
+    background-color: $successColor;
+    color: #fff;
+  }
+  &-info {
+    background-color: $infoColor;
+    color: #fff;
+  }
+  &-warning {
+    background-color: $warningColor;
+    color: #000;
+  }
+  &-danger {
+    background-color: $dangerColor;
+    color: #000;
+  }
+
+  &-title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
