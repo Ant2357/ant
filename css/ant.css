@@ -927,6 +927,38 @@ input, select {
     border-color: #c85554;
     color: #fff; }
 
+.btn-twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+  color: #fff; }
+  .btn-twitter:hover {
+    background-color: #2795e9;
+    border-color: #55acee;
+    color: #fff; }
+  .btn-twitter:active {
+    background-color: #126db2;
+    border-color: #55acee;
+    color: #fff; }
+  .btn-twitter:focus {
+    border-color: #55acee;
+    color: #fff; }
+
+.btn-facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  color: #fff; }
+  .btn-facebook:hover {
+    background-color: #2d4373;
+    border-color: #3b5998;
+    color: #fff; }
+  .btn-facebook:active {
+    background-color: #17233c;
+    border-color: #3b5998;
+    color: #fff; }
+  .btn-facebook:focus {
+    border-color: #3b5998;
+    color: #fff; }
+
 .dropdown {
   display: inline-block;
   position: relative;

@@ -56,3 +56,6 @@
 @include button(".btn-info", $infoColor, #fff);
 @include button(".btn-warning", $warningColor, #fff);
 @include button(".btn-danger", $dangerColor, #fff);
+
+@include button(".btn-twitter", $twitterColor, #fff);
+@include button(".btn-facebook", $facebookColor, #fff);
