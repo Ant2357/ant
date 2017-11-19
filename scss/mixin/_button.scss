@@ -1,0 +1,21 @@
+@mixin button($btnName, $bgColor, $color) {
+  #{$btnName} {
+    background-color: $bgColor;
+    border-color: $bgColor;
+    color: $color;
+    &:hover {
+      background-color: darken($bgColor, 10%);
+      border-color: $bgColor;
+      color: $color;
+    }
+    &:active {
+      background-color: darken($bgColor, 25%);
+      border-color: $bgColor;
+      color: $color;
+    }
+    &:focus {
+      border-color: $bgColor;
+      color: $color;
+    }
+  }
+}
