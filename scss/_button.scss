@@ -49,13 +49,26 @@
     font-size: 1.25rem;
     padding: .5rem 1.5rem;
   }
+
+  &-primary {
+    @include buttonColor($primaryColor, #fff);
+  }
+  &-success {
+    @include buttonColor($successColor, #fff);
+  }
+  &-info {
+   @include buttonColor($infoColor, #fff);
+  }
+  &-warning {
+    @include buttonColor($warningColor, #fff);
+  }
+  &-danger {
+    @include buttonColor($dangerColor, #fff);
+  }
+  &-twitter {
+    @include buttonColor($twitterColor, #fff);
+  }
+  &-facebook {
+    @include buttonColor($facebookColor, #fff);
+  }
 }
-
-@include button(".btn-primary", $primaryColor, #fff);
-@include button(".btn-success", $successColor, #fff);
-@include button(".btn-info", $infoColor, #fff);
-@include button(".btn-warning", $warningColor, #fff);
-@include button(".btn-danger", $dangerColor, #fff);
-
-@include button(".btn-twitter", $twitterColor, #fff);
-@include button(".btn-facebook", $facebookColor, #fff);
