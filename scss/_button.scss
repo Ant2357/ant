@@ -57,7 +57,7 @@
     @include buttonColor($successColor, #fff);
   }
   &-info {
-   @include buttonColor($infoColor, #fff);
+    @include buttonColor($infoColor, #fff);
   }
   &-warning {
     @include buttonColor($warningColor, #fff);
